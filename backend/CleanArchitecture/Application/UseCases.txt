@@ -1,0 +1,16 @@
+﻿Crear torneo
+Generar la fase de grupos de un torneo
+Traer una fecha de la fase de grupos de un torneo
+Eliminar torneo
+
+Poner resultado de un partido
+Poner resultado de varios partidos
+
+Traer la tabla de posiciones de los grupos de un torneo
+Generar la fase de eliminación directa
+Traer los octavos de final de un torneo
+Generar los cuartos de final de un torneo
+Traer los cuartos de final de un torneo
+Generar las semifinales de un torneo
+Traer la final de un torneo
+Generar la final de un torneo
