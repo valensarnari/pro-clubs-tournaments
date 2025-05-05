@@ -1,4 +1,6 @@
 ﻿
+using Domain.Enums;
+
 namespace Domain.Entities
 {
     public class Tournament
@@ -8,6 +10,7 @@ namespace Domain.Entities
         public Guid UserId { get; set; }
         public int TeamCount { get; set; }
         public DateTime CreatedAt { get; set; }
+        public TournamentStatus Status { get; set; } = TournamentStatus.NotStarted;
 
         public User User { get; set; } = null!;
         public ICollection<TournamentTeam> TournamentTeams { get; set; } = new List<TournamentTeam>();

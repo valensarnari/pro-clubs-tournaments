@@ -9,6 +9,7 @@ namespace Domain.Interfaces
 {
     public interface IMatchRepository : IBaseRepository<Match>
     {
-        Task<bool> IsFinishedAsync(Guid matchId);
+        Task<List<Match>> GetByTournamentAsync(Guid tournamentId, CancellationToken cancellationToken = default);
+        Task<bool> IsFinishedAsync(Guid matchId, CancellationToken cancellationToken = default);
     }
 }

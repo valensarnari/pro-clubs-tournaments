@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Infraestructure.Data
 {
-    public class UnitOfWork
+    public class UnitOfWork : IUnitOfWork
     {
         private readonly ApplicationContext _context;
         public ITournamentRepository Tournaments { get; }
